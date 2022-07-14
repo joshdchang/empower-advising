@@ -19,7 +19,9 @@
       </Title>
     </Head>
     <Single>
-      <Prose v-html="home.title"></Prose>
+      <div>
+        <Prose v-html="home.title"></Prose>
+      </div>
       <div v-for="block of blocks" class="bg-white p-4 sm:p-5 md:p-6 lg:p-8 xl:p-10 rounded grid gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-7">
         <Prose>
           <h3>{{ block.title }}</h3>
@@ -31,7 +33,8 @@
             activeClass="text-slate-800 font-medium">
             {{ links.find(e => e.id === block.link).title }}
           </NuxtLink>
-          <NuxtLink v-if="links.find(e => e.id === block.link).type === 'custom'" :to="'/page/' + links.find(e => e.id === block.link).custom_page"
+          <NuxtLink v-if="links.find(e => e.id === block.link).type === 'custom'"
+            :to="'/page/' + links.find(e => e.id === block.link).custom_page"
             class="pr-4 lg:pr-6 xl:pr-7 last:pr-0 text-lg lg:text-xl hover:text-slate-800 transition-colors border-r-[1px] last:border-r-0"
             activeClass="text-slate-800 font-medium">
             {{ links.find(e => e.id === block.link).title }}
