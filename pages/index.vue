@@ -20,7 +20,7 @@
       </Title>
     </Head>
     <Single>
-      <Prose v-html="home.content"></Prose>
+      <Prose v-html="home.title"></Prose>
       <div v-for="block of blocks" class="bg-white p-4 sm:p-5 md:p-6 lg:p-8 xl:p-10 rounded grid gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-7">
         <Prose>
           <h3>{{ block.title }}</h3>
