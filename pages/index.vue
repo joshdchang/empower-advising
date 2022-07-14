@@ -6,9 +6,8 @@
   const settings = await useSingleton('settings')
   const home = await useSingleton('home')
   const blocks = await useItems('home_blocks')
-  const links = await useItems('navbar_links')
+  const links = await useItems('links')
 
-  console.log(links)
 </script>
 
 <template>

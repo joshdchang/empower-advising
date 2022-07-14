@@ -4,7 +4,7 @@
 
 </script>
 <template>
-  <Container class=" bg-slate-700 text-white">
+  <Container class=" bg-slate-800 text-white">
     <div
       class="grid gap-3 sm:grid-cols-2 text-center sm:text-left py-2 sm:py-3 md:py-4 lg:py-5 xl:py-6">
       <div class="md:text-left grid gap-2 sm:gap-3">
