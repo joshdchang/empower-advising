@@ -27,7 +27,7 @@
   const sent = ref(false)
   const success = ref(false)
 
-  const formUrl = 'https://script.google.com/macros/s/AKfycbzRXosr3HpjgrqDUp7SCXbRWdcU1JQ_KQatv3gmHh9kJ1lVw7BZ6VV3Dm__oA7dMVRvjA/exec'
+  const formUrl = 'https://script.google.com/macros/s/AKfycbxBiHylY0Sj708-Dclz6b3XP8-pGGBXQcCTk1M0hgzUlfB6LvlaK_GVTkeaCkgPOvUY_A/exec'
 
   const handleSubmit = async (isFormValid) => {
     submitted.value = true
