@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     transpile: ['primevue']
   },
   meta: {
-    title: 'Amy Huelsman',
+    title: 'Empower Advising',
     link: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: true },

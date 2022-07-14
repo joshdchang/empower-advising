@@ -57,12 +57,10 @@
       <Title>
         Contact – {{ settings.name }}
       </Title>
-      <Meta name="description" :content="settings.description" />
     </Head>
-    <div
-      class="grid pt-6 lg:pt-8 xl:pt-10 justify-items-center gap-8 sm:gap-9 md:gap-10 lg:gap-11 xl:gap-12 sans-serif">
-      <Prose v-html="contact.content" class="max-w-2xl w-full" />
-      <div class="grid gap-4 sm:gap-5 md:gap-7 lg:gap-9 xl:gap-11 max-w-2xl w-full">
+    <Single>
+      <Prose v-html="contact.content" />
+      <div class="grid gap-4 sm:gap-5 md:gap-7 lg:gap-9 xl:gap-11">
         <div class="grid gap-3 sm:gap-4 md:gap-5">
           <span>
             <span class="p-input-icon-left w-full">
@@ -107,11 +105,11 @@
           <Button v-else label="Sent" icon="pi pi-check-circle" disabled="disabled" />
         </div>
       </div>
-      <Prose>
-        <h4>Or give me a call at
-          <PhoneLink :number="settings.phone_number" />
+      <Prose class="text-center">
+        <h4>Or give us a call at
+          <PhoneLink :number="settings.phone" />
         </h4>
       </Prose>
-    </div>
+    </Single>
   </div>
 </template>

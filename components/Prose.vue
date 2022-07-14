@@ -1,5 +1,5 @@
 <template>
-  <div class="prose sm:prose-lg lg:prose-xl prose-p:font-thin prose-headings:font-semibold prose-headings:text-gray-800 prose-a:text-blue-600 prose-a:hover:text-blue-400 prose-a:transition-colors">
+  <div class="prose prose-lg md:prose-xl xl:prose-2xl prose-h3:text-slate-500 prose-h3:font-normal prose-p:font-thin prose-p:text-slate-600 prose-headings:font-semibold prose-headings:text-slate-700 prose-a:text-blue-500">
     <slot />
   </div>
 </template>
