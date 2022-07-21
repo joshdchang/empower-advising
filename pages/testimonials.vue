@@ -22,8 +22,8 @@
 
       <div v-for="testimonial of testimonials"
         class="bg-white p-5 sm:p-7 md:p-10 lg:p-8 xl:p-10 rounded grid gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-7">
+        <Prose v-html="testimonial.content"></Prose>
         <Prose>
-          <p>{{ testimonial.content }}</p>
           <h4>{{ testimonial.name }}</h4>
           <p>
             <span class="text-blue-600">{{ testimonial.high_school }}</span>
