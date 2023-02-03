@@ -1,5 +1,5 @@
-# TODO
-- Add images/other content to Directus
-- Loading thing
-- Suggested at bottom of pages (just thought of right now)
-- Icons and SEO
+# Empower Advising Website
+
+This is a website I made for a client.
+
+See: https://www.empoweradvising.com/.
